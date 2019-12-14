@@ -1,5 +1,6 @@
 # Sheng Li's bits and bytes
-A shelter for me to think and write.(http://shengli95.me)
+A shelter for me to think and write.[shengli95.me](http://shengli95.me)
+
 Based on the [Indigo Minimalist Jekyll Template](https://github.com/sergiokopplin/indigo) by Sérgio Kopplin @sergiokopplin - [Theme Demo](http://sergiokopplin.github.io/indigo/)
 ![Screenshot](https://github.com/EeToSe/EeToSe.github.io/blob/master/screenshot.png)
 
