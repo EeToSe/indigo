@@ -9,9 +9,15 @@ Based on the [Indigo Minimalist Jekyll Template](https://github.com/sergiokoppli
 
 ---
 ## Setup
-Thanks for Annaswamy's tutorials, 
+Thanks for Annaswamy's tutorials, I mainly relied on this.
 * [Build a Blog with Github - Part 1](http://artiannaswamy.com/build-a-github-blog-part-1)
 * [Build a Blog with Github - Part 2](http://artiannaswamy.com/build-a-github-blog-part-2)
+
+l ffd
+l fdfs
+
+
+
 
 
 ---
