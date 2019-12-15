@@ -7,7 +7,7 @@ layout: page
 	<img src="https://github.com/EeToSe/EeToSe.github.io/blob/master/assets/images/profile.png" />
 </div>
 
-<p>Hey there! I am Sheng Li, an Electrical Engineering master student at the University of New Souths Wales.
+<p>Hey there! My name is Sheng Li, an Electrical Engineering master student at the University of New Souths Wales.
 I love data analytics in IoT, power system, signal processing and machine learning applied in those fields.</p>
 
 <p>During my spare time, I love learning new technolgy skills, fitness with friends as well as playing some strategy games(Gwent and Hearthstone).</p>
