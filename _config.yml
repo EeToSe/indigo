@@ -14,7 +14,7 @@ picture: assets/images/profile.png
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: https://github.com/EeToSe/EeToSe.github.io/blob/master/assets/pdf/shengli-resume.pdf
+resume-url: assets/pdf/shengli-resume.pdf
 
 url: https://EeToSe.github.io
 # your url: http://USERNAME.github.io
