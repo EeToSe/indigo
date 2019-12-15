@@ -13,9 +13,11 @@ Thanks for Annaswamy's tutorials, I mainly relied on this.
 * [Build a Blog with Github - Part 1](http://artiannaswamy.com/build-a-github-blog-part-1)
 * [Build a Blog with Github - Part 2](http://artiannaswamy.com/build-a-github-blog-part-2)
 
-l ffd
-l fdfs
-
+### Simpilfied procedure
+1. Create your own github repository - *username.github.io*
+2. Push the website files into this repo(if you forked others, remember to change the url settings)
+3. (Optional) I use [Github Education](https://education.github.com/pack) to checkout the free domain name in [Namecheap](https://www.namecheap.com/). 
+4. In your repo settings change
 
 
 
