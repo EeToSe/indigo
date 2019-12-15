@@ -17,11 +17,8 @@ Thanks for Annaswamy's tutorials, I mainly relied on this.
 1. Create your own github repository - *username.github.io*
 2. Push the website files into this repo(if you forked others, remember to change the url settings)
 3. (Optional) I use [Github Education](https://education.github.com/pack) to checkout the free domain name in [Namecheap](https://www.namecheap.com/). 
-4. In your repo settings change
-
-
-
+4. In your repo settings change, change the custom domain to the one you created in step3. 
+5. DNS configuration. Read more on [Github help](https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#about-custom-domain-configuration).
 
 ---
-
 [MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
