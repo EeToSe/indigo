@@ -3,9 +3,9 @@ title: About
 layout: page
 ---
 
-<div class="center">
+<p>
 	<img src="/assets/images/profile.png" alt="">
-</div>
+</p>
 
 <p>Hey there! My name is Sheng Li, an Electrical Engineering master student at the University of New Souths Wales.
 I love data analytics in IoT, power system, signal processing and machine learning applied in those fields.</p>
