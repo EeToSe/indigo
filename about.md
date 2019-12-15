@@ -4,7 +4,7 @@ layout: page
 ---
 
 <p align="center">
-    <img width="100" height="150" src="https://github.com/EeToSe/EeToSe.github.io/blob/master/assets/images/profile.png">
+    <img width="200" height="250" src="https://github.com/EeToSe/EeToSe.github.io/blob/master/assets/images/profile.png">
 </p>
 
 <p>Hey there! I am Sheng Li, an Electrical Engineering master student at the University of New Souths Wales.
