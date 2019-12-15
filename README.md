@@ -3,7 +3,7 @@ A shelter for me to think and write.[shengli95.me](http://shengli95.me)
 
 Based on the [Indigo Minimalist Jekyll Template](https://github.com/sergiokopplin/indigo) by Sérgio Kopplin @sergiokopplin - [Theme Demo](http://sergiokopplin.github.io/indigo/)
 
-<img src = "https://github.com/EeToSe/EeToSe.github.io/blob/master/screenshot.png" width = "100")
+<img src="https://github.com/EeToSe/EeToSe.github.io/blob/master/screenshot.png" width = "100">
 
 ---
 ## Setup
