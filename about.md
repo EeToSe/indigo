@@ -4,7 +4,7 @@ layout: page
 ---
 
 <p align="center">
-    <img width="500" height="450" src="https://github.com/EeToSe/EeToSe.github.io/blob/master/assets/images/profile.png">
+    <img width="100" height="150" src="https://github.com/EeToSe/EeToSe.github.io/blob/master/assets/images/profile.png">
 </p>
 
 <p>Hey there! I am Sheng Li, an Electrical Engineering master student at the University of New Souths Wales.
@@ -17,11 +17,11 @@ I love data analytics in IoT, power system, signal processing and machine learni
 	<li>Matlab</li>
 	<li>Data analytics</li>
 	<li>R</li>
-	<li><a href="https://github.com/EeToSe">Signal processing(image&speech)</li>
-	
+	<li>Python</li>
+	<li>C/C++</li>
+	<li>Signal processing(image&speech)</li>
 	<li>HTML, CSS, Javascript</li>
 	<li>Git</li>
-	<li>Python</li>
 	<li>MySQL</li>
 	<li>Latex</li>
 </ul>
@@ -29,5 +29,7 @@ I love data analytics in IoT, power system, signal processing and machine learni
 <h2>Projects</h2>
 
 <ul>
-	<li>UNSW Smart campus project</a></li>
+	<li>Todo: UNSW Smart campus project</li>
+	<li><a href="https://github.com/EeToSe/ELEC4622-2019s2"></a>Multimedia Image Processing</li>
+	<li>Todo: Speech Processing</li>
 </ul>
