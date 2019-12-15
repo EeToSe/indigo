@@ -3,9 +3,9 @@ title: About
 layout: page
 ---
 
-<p align="center">
-    <img width="200" height="250" src="https://github.com/EeToSe/EeToSe.github.io/blob/master/assets/images/profile.png">
-</p>
+<div class="center">
+	<img src="https://raw.githubusercontent.com/aannasw/aannasw.github.io/master/assets/images/posts/build-a-blog/google-		analytics.png" />
+</div>
 
 <p>Hey there! I am Sheng Li, an Electrical Engineering master student at the University of New Souths Wales.
 I love data analytics in IoT, power system, signal processing and machine learning applied in those fields.</p>
