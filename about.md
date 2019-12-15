@@ -4,7 +4,7 @@ layout: page
 ---
 
 <p>
-	<img width = "140" height = "250" src="/assets/images/profile.png" alt="Profile image">
+	<img width = "80" height = "150" src="/assets/images/profile.png" alt="Profile image">
 </p>
 
 <p>Hey there! My name is Sheng Li, an Electrical Engineering master student at the University of New Souths Wales.
