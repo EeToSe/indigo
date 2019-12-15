@@ -10,7 +10,7 @@ layout: page
 <p>Hey there! I am Sheng Li, an Electrical Engineering master student at the University of New Souths Wales.
 I love data analytics in IoT, power system, signal processing and machine learning applied in those fields.</p>
 
-<p>During my spare time, I love learning new technolgy skills and fitness.</p>
+<p>During my spare time, I love learning new technolgy skills, fitness with friends as well as playing some strategy games(Gwent and Hearthstone).</p>
 <h2>Skills</h2>
 
 <ul class="skill-list">
