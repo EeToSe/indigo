@@ -14,11 +14,23 @@ author: Sheng Li
 description: Learning notes for i3wm customization
 ---
 
-I know i3 - **titling window manger** from my friend - Hales and he has been using it for many years.  Impressed by its simplicity and high-efficency, I decided to transfer from Gnome-destop (diverse functions and user-friendly UI but *slow*!) to  it. <br>
+I know i3 - **titling window manger** from my friend - Hales and he has been using it for many years.  Impressed by its simplicity and high-efficency, I decided to transfer from Gnome-destop (diverse functions and user-friendly UI but *slow*!) to  it.
 
 ---
 ## Installation
+**i3wm installation**
+`sudo apt-get install i3`<br>
 
+This brings you i3-wm, <a href="2020-01-05-i3wm-configuration.md#i3status">i3status</a> and i3lock
+
+
+---
+## i3 config
+
+
+
+---
+## i3status
 
 
 
