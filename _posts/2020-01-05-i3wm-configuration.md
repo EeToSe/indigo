@@ -32,7 +32,7 @@ After it is done, reboot your computer and choose i3 as your window manager befo
 - **Typora**: markdown editor with awesome and user-friendly  UI to help me write online posts.
 - [**Rofi**](#Rofi): program launcher similar with
 - [Lxappearance](#Lxappearance)
--  
+-  scrot: 
 
 ---
 ## HiDpi problem
@@ -42,11 +42,8 @@ My laptop is surface-book 1st with the resoultion of 3000$\times$2000. The first
 
 ## Appearance and Fonts
 
-I am simply in favor of MacOS Fonts and UI and this section would focus on how I customise it.    
+I am simply in favor of MacOS Fonts and UI and this section would focus on how I customise it. <br><a name = "Lxappearance"></a>Lxappearance <br>This software helps you customize the following
 
-### <a name = "Lxappearance"></a>Lxappearance 
-
-This software helps you customize the following<br>
 * Widget theme: located at `~/.themes`
 * Fonts: located at `~/.fonts` 
 * Icon theme: located at `~/.icons`
@@ -68,7 +65,7 @@ Font rendering, installation see here [Ubuntu Forum](https://ubuntuforums.org/sh
 lsb_release -a
 ```
 
-
+#TODO
 
 ---
 ## i3bar configuration 
