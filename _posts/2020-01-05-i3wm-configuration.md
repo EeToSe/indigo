@@ -22,7 +22,6 @@ I know i3 - **titling window manger** from my friend - Hales and he has been usi
 ```console
 	sudo apt-get install i3
 ```
-`sudo apt-get install i3`<br>
 
 This brings you i3-wm, [i3status](#i3status) and i3lock.
 
@@ -38,11 +37,17 @@ This software helps you customize the following<br>
 * Fonts: located at `~/.fonts` 
 * Icon theme: located at `~/.icons`
 * Cursor theme: located at `/usr/share/icons`
+For my personal taste, [MacOs theme](https://www.gnome-look.org/p/1275087/) is chosen (the visual effect as shown below).
+![image info](/assets/images/posts/i3/lxappearance.png)
+
 
 ---
 ## <a name = "i3status">i3 config</a>
 **File location** in ubuntu 18.04.3 LTS (found with the following command line) <br>
-`lsb_release -a`
+```console
+lsb_release -a
+```
+
 
 
 
