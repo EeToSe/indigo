@@ -27,27 +27,41 @@ This brings you i3-wm, [i3status](#i3status) and i3lock.
 
 After it is done, reboot your computer and choose i3 as your window manager before you login.
 
+**Additional packages** which I recommend:
+
+- **Typora**: markdown editor with awesome and user-friendly  UI to help me write online posts.
+- [**Rofi**](#Rofi): program launcher similar with
+- [**Lxappearance**](#Lxappearance)
+-  
+
 ---
 ## HiDpi problem
-My laptop is surface-book 1st with the resoultion of 3000$\times$2000. The first problem which I came across is that the fonts are very small and hardly readable. After wandering around stackoverflow, I found the solution [here](https://unix.stackexchange.com/questions/267885/how-do-i-scale-i3-window-manager-for-my-hidpi-display). Bascillay, you could modify .Xresources file (located at `~/.Xresources`) where Xft.dpi should be increased (220 works perfectly in my case) and reboot you should see the difference. <br>
+My laptop is surface-book 1st with the resoultion of 3000$\times$2000. The first problem which I came across is that the fonts are very small and hardly readable. After wandering around stackoverflow, I found the solution [here](https://unix.stackexchange.com/questions/267885/how-do-i-scale-i3-window-manager-for-my-hidpi-display). Bascillay, you could modify .Xresources file (located at `~/.Xresources`) where Xft.dpi should be increased (220 works perfectly in my case) and reboot you should see the difference. 
+
+---
+
+## Appearance and Fonts
+
+I am simply in favor of MacOS Fonts and UI and here are  
 
 ### Lxappearance 
+
 This software helps you customize the following<br>
 * Widget theme: located at `~/.themes`
 * Fonts: located at `~/.fonts` 
 * Icon theme: located at `~/.icons`
 * Cursor theme: located at `/usr/share/icons`
 For my personal taste, [MacOs theme](https://www.gnome-look.org/p/1275087/) is chosen (the visual effect as shown below).
-![image info](/assets/images/posts/i3/lxappearance.png)
-
+![image info](../assets/images/posts/i3/lxappearance.png)
 
 ---
-## <a name = "i3status">i3 config</a>
+## <a name = "i3status"></a>i3config
+
 **File location** in ubuntu 18.04.3 LTS (found with the following command line) <br>
+
 ```console
 lsb_release -a
 ```
-
 
 
 
