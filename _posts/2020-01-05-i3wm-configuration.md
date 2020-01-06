@@ -31,7 +31,7 @@ After it is done, reboot your computer and choose i3 as your window manager befo
 
 - **Typora**: markdown editor with awesome and user-friendly  UI to help me write online posts.
 - [**Rofi**](#Rofi): program launcher similar with
-- [**Lxappearance**](#Lxappearance)
+- [Lxappearance](#Lxappearance)
 -  
 
 ---
@@ -42,7 +42,7 @@ My laptop is surface-book 1st with the resoultion of 3000$\times$2000. The first
 
 ## Appearance and Fonts
 
-I am simply in favor of MacOS Fonts and UI and here are  
+I am simply in favor of MacOS Fonts and UI and this section would focus on how I customise it.    
 
 ### <a name = "Lxappearance"></a>Lxappearance 
 
@@ -54,7 +54,12 @@ This software helps you customize the following<br>
 For my personal taste, [MacOs theme](https://www.gnome-look.org/p/1275087/) is chosen (the visual effect as shown below).
 ![MacOS style](../assets/images/posts/i3/lxappearance.png)
 
+## Infinality
+
+Font rendering, installation see here [Ubuntu Forum](https://ubuntuforums.org/showthread.php?t=2385152)
+
 ---
+
 ## <a name = "i3status"></a>i3config
 
 **File location** in ubuntu 18.04.3 LTS (found with the following command line) <br>
