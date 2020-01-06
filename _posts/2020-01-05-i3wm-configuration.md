@@ -44,7 +44,7 @@ My laptop is surface-book 1st with the resoultion of 3000$\times$2000. The first
 
 I am simply in favor of MacOS Fonts and UI and here are  
 
-### Lxappearance 
+### <a name = "Lxappearance"></a>Lxappearance 
 
 This software helps you customize the following<br>
 * Widget theme: located at `~/.themes`
@@ -52,7 +52,7 @@ This software helps you customize the following<br>
 * Icon theme: located at `~/.icons`
 * Cursor theme: located at `/usr/share/icons`
 For my personal taste, [MacOs theme](https://www.gnome-look.org/p/1275087/) is chosen (the visual effect as shown below).
-![image info](../assets/images/posts/i3/lxappearance.png)
+![MacOS style](../assets/images/posts/i3/lxappearance.png)
 
 ---
 ## <a name = "i3status"></a>i3config
@@ -65,16 +65,54 @@ lsb_release -a
 
 
 
-
-
-
-
 ---
-## i3status
+## i3bar configuration 
 
+i3bar could be configured in the same configuration file as i3-wm. Configuring your workspace bar starts with opening a `bar` block with the following choices:  
 
+* i3status
 
+  ```console
+  bar {
+      status_command i3status
+  }
+  ```
 
+* i3blocks
+
+* polybar
+
+Reason to choose i3status: originally come with i3; good enough to satisfy all my needs.
+
+First I want to specifies the alternate configuration file path same as i3 config file.
+
+```console
+bar {
+    status_command i3status --config ~/.i3status.conf
+}
+```
+
+I choose t comment out some issues (no Ethernet port for my laptop & not interested in cpu tempe.)
+
+```c
+order += "wireless wlp3s0"
+order += "battery 1"
+order += "load"
+order += "volume master"
+order += "tztime local"
+order += "disk /"
+order += "disk /home"
+#order += "ethernet enp1s0"
+#order += "cpu_temperature 0"
+```
+
+Wireless connection could be found use ```iwconfig``
+
+The font symbol is found here: [Font Awesome](https://fontawesome.com/v4.7.0/cheatsheet/). Finally it gives this!
+
+![i3 bar](/home/sheng/github/indigo/assets/images/posts/i3/i3status.png)
+
+Details could be found: ```man i3status```, [i3 User’s Guide](https://i3wm.org/docs/userguide.html) and [my dotfiles](https://github.com/EeToSe/i3dotfiles)
 
 
 
