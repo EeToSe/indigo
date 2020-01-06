@@ -19,6 +19,9 @@ I know i3 - **titling window manger** from my friend - Hales and he has been usi
 ---
 ## Installation
 **i3wm installation** command line:<br>
+```console
+	sudo apt-get install i3
+```
 `sudo apt-get install i3`<br>
 
 This brings you i3-wm, [i3status](#i3status) and i3lock.
@@ -32,7 +35,7 @@ My laptop is surface-book 1st with the resoultion of 3000$\times$2000. The first
 ### Lxappearance 
 This software helps you customize the following<br>
 * Widget theme: located at `~/.themes`
-* Fonts: located  `~/.fonts`) 
+* Fonts: located at `~/.fonts` 
 * Icon theme: located at `~/.icons`
 * Cursor theme: located at `/usr/share/icons`
 
