@@ -37,9 +37,7 @@ After it is done, reboot your computer and choose i3 as your window manager befo
 ---
 ## HiDpi problem
 My laptop is surface-book 1st with the resoultion of 3000$\times$2000. The first problem which I came across is that the fonts are very small and hardly readable. After wandering around stackoverflow, I found the solution [here](https://unix.stackexchange.com/questions/267885/how-do-i-scale-i3-window-manager-for-my-hidpi-display). Bascillay, you could modify .Xresources file (located at `~/.Xresources`) where Xft.dpi should be increased (220 works perfectly in my case) and reboot you should see the difference. 
-
 ---
-
 ## Appearance and Fonts
 
 I am simply in favor of MacOS Fonts and UI and this section would focus on how I customise it. <br><a name = "Lxappearance"></a>Lxappearance <br>This software helps you customize the following
@@ -59,43 +57,35 @@ Font rendering, installation see here [Ubuntu Forum](https://ubuntuforums.org/sh
 
 ## <a name = "i3status"></a>i3config
 
-**File location** in ubuntu 18.04.3 LTS (found with the following command line) <br>
-
+**File location: ** ```~/.config/i3/config``` in ubuntu 18.04.3 LTS (found with the following command line) <br>
 ```console
 lsb_release -a
 ```
-
-#TODO
-
+Basically, you could customise using these two command 
+### todo
+### exec 
+### assign
+### Volume Control
+### Floating switch
 ---
 ## i3bar configuration 
-
 i3bar could be configured in the same configuration file as i3-wm. Configuring your workspace bar starts with opening a `bar` block with the following choices:  
-
 * i3status
-
   ```console
   bar {
       status_command i3status
   }
   ```
-
 * i3blocks
-
 * polybar
-
 Reason to choose i3status: originally come with i3; good enough to satisfy all my needs.
-
 First I want to specifies the alternate configuration file path same as i3 config file.
-
 ```console
 bar {
     status_command i3status --config ~/.i3status.conf
 }
 ```
-
 I choose t comment out some issues (no Ethernet port for my laptop & not interested in cpu tempe.)
-
 ```c
 order += "wireless wlp3s0"
 order += "battery 1"
@@ -107,17 +97,15 @@ order += "disk /home"
 #order += "ethernet enp1s0"
 #order += "cpu_temperature 0"
 ```
-
 Wireless connection could be found use ```iwconfig``
-
 The font symbol is found here: [Font Awesome](https://fontawesome.com/v4.7.0/cheatsheet/). Finally it gives this!
-
 ![i3 bar](/home/sheng/github/indigo/assets/images/posts/i3/i3status.png)
-
 Details could be found: ```man i3status```, [i3 User’s Guide](https://i3wm.org/docs/userguide.html) and [my dotfiles](https://github.com/EeToSe/i3dotfiles)
-
-
-
+---
+## 'Rice' startup
+**Grub theme**:  [GNOME-LOOK.ORG](https://www.gnome-look.org/browse/cat/109/order/latest/) provide bunches of themes.
+**Starup selection**: remove or add boot options.
+**Change the login background**. 
 ---
 ## Reference
 * Offical documents: [i3 User’s Guide](https://i3wm.org/docs/userguide.html)
