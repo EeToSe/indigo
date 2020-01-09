@@ -32,15 +32,16 @@ After it is done, reboot your computer and choose i3 as your window manager befo
 - **Typora**: markdown editor with awesome and user-friendly  UI to help me write online posts.
 - [**Rofi**](#Rofi): program launcher similar with
 - [Lxappearance](#Lxappearance)
--  scrot: 
+-  scrot: screenshot tool
 
 ---
 ## HiDpi problem
 My laptop is surface-book 1st with the resoultion of 3000$\times$2000. The first problem which I came across is that the fonts are very small and hardly readable. After wandering around stackoverflow, I found the solution [here](https://unix.stackexchange.com/questions/267885/how-do-i-scale-i3-window-manager-for-my-hidpi-display). Bascillay, you could modify .Xresources file (located at `~/.Xresources`) where Xft.dpi should be increased (220 works perfectly in my case) and reboot you should see the difference. 
+
 ---
 ## Appearance and Fonts
 
-I got used to  MacOS Fonts and UI and this section would focus on how I customise the fonts which could download [here]. 
+I got used to  MacOS Fonts and UI and this section would focus on how I customize the fonts which could download [here](https://github.com/EeToSe/i3dotfiles/tree/master/Mac%20fonts). 
 <a name = "Lxappearance"></a>Lxappearance
 This software helps you customize the following
 
@@ -67,10 +68,19 @@ lsb_release -a
 ### Variables
 Generally for the name of workspace, we could use ```set``` to assign name to some workspace as below.
 ```console
-
+set $workspace1 "1 "
+set $workspace2 "2 "
+set $workspace3 "3 "
 ```
+And then bind the shortcuts using the variable name
+```console
+bindsym $mod+1 workspace $workspace1
+bindsym $mod+2 workspace $workspace2
+bindsym $mod+3 workspace $workspace3
+```
+This could help you get rid of the problem of name inconsistence and make your code more readable
 
-Basically, you could customise using these two command 
+Basically, you could customize using these two command 
 ### todo
 ### exec 
 ### assign
@@ -87,6 +97,7 @@ i3bar could be configured in the same configuration file as i3-wm. Configuring y
   ```
 * i3blocks
 * polybar
+
 Reason to choose i3status: originally come with i3; good enough to satisfy all my needs.
 First I want to specifies the alternate configuration file path same as i3 config file.
 ```console
@@ -110,11 +121,13 @@ Wireless connection could be found use command line ```iwconfig```
 The font symbol is found here: [Font Awesome](https://fontawesome.com/v4.7.0/cheatsheet/). Finally it gives this!
 ![i3 bar](/home/sheng/github/indigo/assets/images/posts/i3/i3status.png)
 Details could be found: ```man i3status```, [i3 User’s Guide](https://i3wm.org/docs/userguide.html) and [my dotfiles](https://github.com/EeToSe/i3dotfiles)
+
 ---
 ## 'Rice' startup
 **Grub theme**:  [GNOME-LOOK.ORG](https://www.gnome-look.org/browse/cat/109/order/latest/) provide bunches of themes.
 **Starup selection**: remove or add boot options.
 **Change the login background**. 
+
 ---
 ## Reference
 * Offical documents: [i3 User’s Guide](https://i3wm.org/docs/userguide.html)
