@@ -42,7 +42,7 @@ My laptop is surface-book 1st with the resoultion of 3000$\times$2000. The first
 ## Appearance and Fonts
 
 I got used to  MacOS Fonts and UI and this section would focus on how I customize the fonts which could download [here](https://github.com/EeToSe/i3dotfiles/tree/master/Mac%20fonts). 
-<a name = "Lxappearance"></a>Lxappearance
+<a name = "Lxappearance">Lxappearance</a>
 This software helps you customize the following
 
 * Widget theme: located at `~/.themes`
